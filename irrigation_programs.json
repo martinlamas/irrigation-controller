@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Tomates",
+        "steps": [30, 0, null, null, null, null]
+    },
+    {
+        "id": 2,
+        "name": "Tomates y pimientos",
+        "steps": [30, 15, null, null, null, null]
+    }
+]

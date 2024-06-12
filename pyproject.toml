@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "irrigation-controller"
+version = "0.1.0"
+description = ""
+authors = ["Martín Lamas <martin.lamas@trabe.io>"]
+readme = "README.md"
+packages = [{include = "irrigation_controller"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tenacity = "^8.3.0"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[tool.poetry.scripts]
+irrigation_controller = "irrigation_controller.irrigation_controller:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
